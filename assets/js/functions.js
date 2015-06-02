@@ -55,33 +55,34 @@ jQuery(document).ready(function($) {
 
 	/* Time Countdown 
 	-------------------------------------------------------------------*/
+    // var date = new Date();
 	$('#time_countdown').countDown({
-        
-        // targetDate: {
-        //     'day': 30,
-        //     'month': 9,
-        //     'year': 2015,
-        //     'hour': 0,
-        //     'min': 0,
-        //     'sec': 0
-        // },
-        // omitWeeks: true
 
-         targetOffset: {
-            'day':      0,
-            'month':    0,
-            'year':     1,
-            'hour':     0,
-            'min':      0,
-            'sec':      3
-		},
-		omitWeeks: true
+        targetDate: {
+            'day': 25,
+            'month': 11,
+            'year': 2015,
+            'hour': 0,
+            'min': 0,
+            'sec': 0
+        },
+        omitWeeks: true
+
+  //        targetOffset: {
+  //           'day':      15,
+  //           'month':    5,
+  //           'year':     0,
+  //           'hour':     0,
+  //           'min':      0,
+  //           'sec':      3
+		// },
+		// omitWeeks: true
 
 	    });
 
 
 
-	/* Next Section   
+	/* Next Section
 	-------------------------------------------------------------------*/
 	$('.next-section .go-to-about').click(function() {
     	$('html,body').animate({scrollTop:$('#about').offset().top}, 1000);
