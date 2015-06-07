@@ -1,0 +1,22 @@
+{
+  "name": "mayjstry.by",
+  "version": "0.0.0",
+  "description": "majstry.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/majstry/majstry.github.io.git"
+  },
+  "author": "Artsiom Mezin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majstry/majstry.github.io/issues"
+  },
+  "homepage": "https://github.com/majstry/majstry.github.io",
+  "devDependencies": {
+    "bem": "~0.9.0"
+  }
+}
