@@ -51,7 +51,7 @@ var App = Backbone.View.extend({
 
   scrollNext: function (event) {
     event.preventDefault();
-    var $anchor = $(this);
+    var $anchor = $(event.currentTarget);
     $('html, body').stop().animate({
         scrollTop: $($anchor.attr('href')).offset().top
     }, 1500, 'easeInOutExpo');
