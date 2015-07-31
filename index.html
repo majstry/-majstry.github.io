@@ -100,20 +100,24 @@
         </div><!--end container-->
 
         <section id="newsletter" class="content-section text-center">
+          <form action="/" id="email_form">
             <div class="newsletter">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
+                            <h2 class="js-success-submit" style="dispaly: none">Спасибо! Мы обязательно свяжемся с вами!</h2>
                             <div class="newsletter-box">
                                 <h2>Оцените работу Майстров первыми</h2>
                                 <p>Оставьте свой адрес электронной почты, и мы сообщим вам о запуске нашей поисковой системы</p>
                                 <div class="row">
                                     <div class="col-lg-8 col-lg-offset-2">
                                         <div class="input-group input-group-lg">
+
                                             <input type="text" class="form-control" placeholder="Email">
-                                            <span class="input-group-btn">
+                                            <span class="js-submit input-group-btn">
                                                 <button class="btn input-btn btn-default" type="button">Подписаться</button>
                                             </span>
+
                                         </div><!-- input-group -->
                                     </div><!-- col-lg-8 -->
                                 </div><!--row-->
@@ -123,6 +127,7 @@
                     </div><!-- row -->
                 </div><!-- container -->
             </div><!-- newsletter -->
+            </form>
         </section><!--end newsletter-->
 
         <div class="container text-center">
@@ -171,6 +176,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+
+        <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+        <script src="https://cdn.firebase.com/libs/backbonefire/0.5.1/backbonefire.min.js"></script>
 
         <!-- Custom Theme JavaScript -->
         <script src="assets/js/grayscale.js"></script>

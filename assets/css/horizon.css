@@ -455,7 +455,7 @@ corresponding value from the list below*/
 .newsletter {
     width: 100%;
     color: #000;
-    background: url(../img/newsletter-bg.jpg) no-repeat center center scroll;
+    /* background: url(../img/newsletter-bg.jpg) no-repeat center center scroll; */
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -650,4 +650,12 @@ corresponding value from the list below*/
     }
 }
 
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  h2, .h2 {
+    font-size: 25px;
+  }
+}
 /* end Media Query */
