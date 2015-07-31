@@ -59,7 +59,10 @@ a:focus {
     padding: 10px 0 20px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/horizonintro.jpg) no-repeat bottom center scroll;
+    /* background: url(../img/horizonintro.jpg) no-repeat bottom center scroll; */
+    /* background: url('../img/engine_bg.jpg') no-repeat bottom center scroll; */
+    /* background: url('../img/lincoln-town-car-engine-3.jpg') no-repeat bottom center scroll; */
+    background: url('../img/minsk.jpg') no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -443,6 +446,10 @@ corresponding value from the list below*/
 
 /* Newsletter */
 
+#newsletter h2 {
+  color: #CF003D;
+}
+
 .newsletter {
     width: 100%;
     color: #000;
@@ -456,7 +463,8 @@ corresponding value from the list below*/
 }
 
 .input-btn {
-    background: #1c79ed;
+    /* background: #1c79ed; */
+    background: #CF003D;
     color: #FFF;
     padding: 12px;
     border:none;
@@ -496,8 +504,10 @@ corresponding value from the list below*/
 
 /* Share */
 #share {
-    padding-bottom: 100px;
+    padding: 100px 0;
     text-align: center;
+    background-color: #000;
+    color: #fff;
 }
 #share h2 {
     /* color: #FF8040; */
@@ -531,7 +541,7 @@ corresponding value from the list below*/
 
 #footer {
     text-align: center;
-    background: #000;
+    /* background: #000; */
     font-weight: bold;
     padding: 50px 0 20px 0;
 }
@@ -582,13 +592,12 @@ corresponding value from the list below*/
     }
 
     #share {
-        padding-bottom: 100px;
+        padding: 100px 0;
         text-align: center;
     }
 
     #footer {
         text-align: center;
-        background: #000;
         font-weight: bold;
         padding: 50px 0 20px 0;
     }
