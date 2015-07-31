@@ -59,10 +59,7 @@ a:focus {
     padding: 10px 0 20px 0;
     text-align: center;
     color: #fff;
-    /* background: url(../img/horizonintro.jpg) no-repeat bottom center scroll; */
-    /* background: url('../img/engine_bg.jpg') no-repeat bottom center scroll; */
-    /* background: url('../img/lincoln-town-car-engine-3.jpg') no-repeat bottom center scroll; */
-    background: url('../img/minsk.jpg') no-repeat bottom center scroll;
+    background: url('../img/minsk.png') no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
