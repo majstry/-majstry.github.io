@@ -72,6 +72,11 @@ a:focus {
     vertical-align: middle;
 }
 
+.logo {
+  margin-bottom: 35px;
+  width: 55%;
+}
+
 .brand-heading {
     color:#f9ebe7;
     text-shadow: none;
@@ -629,6 +634,11 @@ corresponding value from the list below*/
 
 
 @media(max-width:767px) {
+    .logo {
+      margin-bottom: 35px;
+      width: 90%;
+    }
+
     ul.banner-social-buttons>li {
         display: block;
         margin-bottom: 20px;
@@ -639,4 +649,5 @@ corresponding value from the list below*/
         margin-bottom: 0;
     }
 }
+
 /* end Media Query */
