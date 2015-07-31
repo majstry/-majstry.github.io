@@ -25,6 +25,11 @@ h6 {
     line-height: 1.5;
 }
 
+
+h3 {
+    font-size: 21px;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 14px;
