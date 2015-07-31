@@ -13,7 +13,7 @@
 var EmailModel = Backbone.Model.extend({
   defaults: { email: '' },
   validate: function (attributes, options) {
-    if (!/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(attributes.email)) {
+    if (!/@{1}/.test(attributes.email)) {
       return 'invalid_email';
     }
   }
