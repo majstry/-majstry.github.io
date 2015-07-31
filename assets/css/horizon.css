@@ -515,6 +515,7 @@ corresponding value from the list below*/
     /* color: #FF8040; */
     color: #CF003D;
     margin-top: 0 !important;
+    word-wrap: break-word;
 }
 #share a {
     color: #fff;
